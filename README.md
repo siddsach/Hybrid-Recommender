@@ -2,10 +2,11 @@
 
 This repository contains all the relevant files for my project building a Collaborative Topic Regression recommender system.
 
+improved RMSE error over regular matrix factorization by relative 6%, competitive with state of the art and more importantly
+able to use jointly learned topic model representations make highly accurate recommendations on new content with no ratings data.
+
 Abstract:
 Recommendation is a highly multifaceted task. For ideal performance, a recommender system must be able to effectively use multiple kinds of data to deliver high quality recommendations, avoid being biased toward items that have had many ratings, be able to understand new content, and be fast enough that the system is able to deliver recommendations in a reasonable timeframe. In this paper, I explore the application of the novel recommender algorithm Collaborative Topic Regression to the task of recommending movies using both ratings data and the scripts of the movies. This algorithm combines collaborative filtering and content analysis to make significant progress over other recommender algorithms in the objectives described above. In the end, I also show that the learned representations correspond well with one's understanding of the taxonomy of movies, and most incredibly show high-quality recommendations on new movies, using solely script data..
-
-IMPORTANT NOTE: There is a typo in the final scores. Vanilla PMF reccomendation achieved 0.842 RMSE not 0.942. I lost the word doc used to create the pdf and have trouble editing it
 
 DATA
 
