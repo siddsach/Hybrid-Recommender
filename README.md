@@ -1,6 +1,7 @@
 # Hybrid-Recommender
 
-This repository contains all the relevant files for my project building a Collaborative Topic Regression recommender system.
+This repository contains all the relevant files for my project building a Collaborative Topic Regression recommender system based on
+this paper: http://www.cs.columbia.edu/~blei/papers/WangBlei2011.pdf
 
 improved RMSE error over regular matrix factorization by relative 6%, competitive with state of the art and more importantly
 able to use jointly learned topic model representations make highly accurate recommendations on new content with no ratings data.
