@@ -7,6 +7,11 @@ Results
 =====
 ![alt text](/images/rec_results.png?raw=true)
 
+Vanilla PMF --> Standard Probabilistic Matrix Factorization Recommendation Algorithm
+CTR-in-Matrix --> predictions for movies we have ratings for
+CTR-out-of-Matrix --> predictions for movies we have no ratings for and just use script.
+CTR-LDA-in-Matrix --> predictions for movies with ratings where we use LDA vector in place of learned ratings vector. 
+
 Learned Representaitons
 =====
 ![alt text](/images/lda_vis.png?raw=true "Visualization of Movievecs")
@@ -22,7 +27,6 @@ The output of LDA (an unsupervised algorithm to learn topic representation) give
 * Law → believe attorney question prison justice murder jury truth state witness years evidence lawyer trial guilty honor didn law judge case
 
 * Military → fight order stand ship soldiers gentlemen enemy aye orders officer soldier thank lieutenant sergeant army colonel general war men captain
-
 
 
 Data
@@ -42,4 +46,3 @@ Code
 * trail_recommender1.py-->optimizing hyperparameters and generating some visualizations
 * scrape_ss.py -->scraping scripts from springfield script dataset
 * linkage.py -->matching scripts to movie ids in the MovieLens 100k ratings dataset
-
