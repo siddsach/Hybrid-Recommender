@@ -5,11 +5,11 @@ this paper: http://www.cs.columbia.edu/~blei/papers/WangBlei2011.pdf
 
 Results
 =====
-![Alt text](/images/rec_results.png?raw=true)
+![alt text](/images/rec_results.png?raw=true)
 
 Learned Representaitons
 =====
-![Alt text](/images/lda_viz.png?raw=true "Visualization of Movievecs")
+![alt text](/images/lda_viz.png?raw=true "Visualization of Movievecs")
 
 The output of LDA (an unsupervised algorithm to learn topic representation) gives word distributions for each topic, and inspecting these topics can give us a sense of what the algorithm is actually learning. Here are a few of the topics clearly signifying some easily interpretable likely meaning as represented by their top 20 words.
 
