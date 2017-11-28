@@ -7,10 +7,10 @@ Results
 =====
 ![alt text](/images/rec_results.png?raw=true)
 
-Vanilla PMF --> Standard Probabilistic Matrix Factorization Recommendation Algorithm
-CTR-in-Matrix --> predictions for movies we have ratings for
-CTR-out-of-Matrix --> predictions for movies we have no ratings for and just use script.
-CTR-LDA-in-Matrix --> predictions for movies with ratings where we use LDA vector in place of learned ratings vector. 
+* Vanilla PMF --> Standard Probabilistic Matrix Factorization Recommendation Algorithm
+* CTR-in-Matrix --> predictions for movies we have ratings for
+* CTR-out-of-Matrix --> predictions for movies we have no ratings for and just use script.
+* CTR-LDA-in-Matrix --> predictions for movies with ratings where we use LDA vector in place of learned ratings vector. 
 
 Learned Representaitons
 =====
